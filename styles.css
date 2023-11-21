@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Oswald:wght@200;300;400&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1d1d1d;
+    color: rgba(255, 255, 255, 0.881);
+
+    font: 400 16px 'Oswald', sans-serif ;
+    /* font-size: ;
+    font-weight: ; */
+}
+
+input,textarea {
+    background-color: #1d1d1d;
+    color: rgba(255, 255, 255, 0.881);
+    border: 1px solid #cccccc75; 
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 250px;
+    box-shadow: 4px 5px 14px 5px rgba(255, 255, 255, 0.2);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.info-text {
+    margin: 70px 0 30px 60px;
+    
+}
+
+.info-text h1 {
+    margin-bottom: 20px;
+}
+
+.linkk {
+    padding: 10px 10px;
+}
+.links {
+    height: 39px;
+}
+@media (max-width: 600px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .info-text {
+        margin: 30px 20px;
+    }
+}
+
+.conteiner {
+    margin: auto;
+    max-width: 800px;
+    padding-top: 30px;
+}
+
+.hobby h3 {
+    text-align: center;
+}
+
+.hobby ul li {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.card{
+    padding: 5px 40px;
+    
+    background-color: rgba(150, 148, 148, 0.104);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.881);
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: rgba(180, 177, 177, 0.881);
+    font-size: 1.1rem;
+}
+
+.work {
+    font-weight: 300;
+    border: 1px dashed;
+    margin-bottom: 40px;
+}
+
+.work h3{
+    text-align: center;
+}
+
+.wE td {
+    padding: 5px 40px;
+    text-align: center;
+}
+
+.wE td:nth-child(even) {
+    background-color: rgba(180, 177, 177, 0.201);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.881);
+}
+
+.wE {
+    width: 100%;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form-row .form-group {
+   margin-right: 20px;
+   width: 50%;
+    /* display: inline-block; */
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(180, 177, 177, 0.201);
+    padding: 15px 0 10px;
+    outline: none;
+}
+
+@media (max-width:600px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.btn {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: solid 1px ;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
